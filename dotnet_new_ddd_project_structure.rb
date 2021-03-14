@@ -1,6 +1,6 @@
 require 'readline'
 
-puts "Project name:"
+puts "Project Name:"
 
 prompt = "> "
 
