@@ -1,6 +1,6 @@
 require 'readline'
 
-puts "Informe o nome do Projeto:"
+puts "Project name:"
 
 prompt = "> "
 
@@ -11,7 +11,6 @@ print "dotnet version: "
 system "dotnet --version"
 
 # diretórios
-puts "Criando diretórios"
 system "mkdir -p #{projeto_name}"
 system "mkdir -p #{projeto_name}/#{projeto_name}.Domain"
 system "mkdir -p #{projeto_name}/#{projeto_name}.Shared"
