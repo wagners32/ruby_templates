@@ -5,7 +5,7 @@ puts "Project Name:"
 prompt = "> "
 
 projeto_name = Readline.readline(prompt, true)
-puts "Criando o projeto: '#{projeto_name}'"
+puts "creating project: '#{projeto_name}'"
 # dotnet version
 print "dotnet version: "
 system "dotnet --version"
